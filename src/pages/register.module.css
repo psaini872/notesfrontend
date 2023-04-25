@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*   Navbar   */
+
+/* flexContainer */
+.nav {
+  margin: 10px 130px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* flexitem */
+.logo {
+  color: #00548f;
+  flex-grow: 1;
+}
+.profile {
+  color: black;
+  font-size: 15px;
+  padding: 0 10px;
+}
+.blog,
+.logout {
+  font-size: 15px;
+  padding: 0 10px;
+  color: #00548f;
+  border-left: 1px solid rgb(230, 230, 230);
+}
+/* usre name */
+.name {
+  padding-left: 4px;
+  color: #00548f;
+  font-weight: 600;
+  font-size: 15px;
+}
+/* hover */
+.flexitemh:hover {
+  color: #0072bc;
+}
+
+.form {
+  width: 35%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 0;
+  /* border: 1px solid #ccc;
+  border-radius: 8px; */
+}
+.container {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.lable {
+  color: white;
+  font-weight: 700;
+  font-size: larger;
+}
+.in {
+  width: 100%;
+  padding: 4px 6px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.h3 {
+  color: #f5ba13;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.togbutton {
+  border: 0;
+  background-color: white;
+  color: #ca9709;
+}
+.submit {
+  margin: 10px 0;
+  padding: 6px;
+  border: 0px solid #ccc;
+  border-radius: 2px;
+  color: white;
+  background-color: #f5ba13;
+}
